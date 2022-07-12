@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/hubble-jwst/static/css/main.e6c13ad2.css",
+    "main.js": "/hubble-jwst/static/js/main.f47bc66f.js",
+    "static/js/787.c5d29cbc.chunk.js": "/hubble-jwst/static/js/787.c5d29cbc.chunk.js",
+    "static/media/comparison-99-jwst.webp": "/hubble-jwst/static/media/comparison-99-jwst.4643f05d6a4acb029010.webp",
+    "static/media/comparison-99-hubble.webp": "/hubble-jwst/static/media/comparison-99-hubble.d0f794042b7148056b2d.webp",
+    "index.html": "/hubble-jwst/index.html",
+    "main.e6c13ad2.css.map": "/hubble-jwst/static/css/main.e6c13ad2.css.map",
+    "main.f47bc66f.js.map": "/hubble-jwst/static/js/main.f47bc66f.js.map",
+    "787.c5d29cbc.chunk.js.map": "/hubble-jwst/static/js/787.c5d29cbc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.f47bc66f.js"
+  ]
+}
