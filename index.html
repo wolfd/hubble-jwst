@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubble / JWST comparison</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- taken from: https://codepen.io/clarewhatever/pen/YqXNeB -->
+    <div class="container">
+        <div id="comparison">
+            <figure>
+                <div id="handle"></div>
+                <div id="divisor"></div>
+            </figure>
+            <input type="range" min="0" max="100" value="50" id="slider" oninput="moveDivisor()">
+        </div>
+    </div>
+	<script src="index.js"></script>
+  </body>
+</html>
