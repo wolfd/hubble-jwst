@@ -7,16 +7,17 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <!-- taken from: https://codepen.io/clarewhatever/pen/YqXNeB -->
-    <div class="container">
-        <div id="comparison">
-            <figure>
-                <div id="handle"></div>
-                <div id="divisor"></div>
-            </figure>
-            <input type="range" min="0" max="100" value="50" id="slider" oninput="moveDivisor()">
+    <!-- taken from: https://codepen.io/codyhouse/pen/BaqGeX -->
+    <figure class="cd-image-container">
+        <img src="comparison-99-hubble.webp" alt="Hubble">
+        <span class="cd-image-label" data-type="original">Hubble</span>
+    
+        <div class="cd-resize-img"> <!-- the resizable image on top -->
+            <span class="cd-image-label" data-type="modified">JWST</span>
         </div>
-    </div>
+        <span class="cd-handle"></span>
+    </figure>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="index.js"></script>
   </body>
 </html>
